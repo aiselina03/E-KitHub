@@ -1,0 +1,47 @@
+.adminPanel {
+  width: 90%;
+  min-height: 25vh;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  .panel {
+    width: 400px;
+    min-height: 6vh;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: center;
+    h3 {
+      a {
+        font-size: 23px;
+        color: black;
+
+      }
+      .active {
+        color: #00b4d8;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 410px) {
+  .adminPanel {
+    .panel {
+      width: 290px;
+      min-height: auto;
+      display: flex;
+      align-items: center;
+      gap: 50px;
+      justify-content: center;
+      padding: 6px;
+      h3 {
+        a {
+          font-size: 23px;
+        }
+      }
+    }
+  }
+}

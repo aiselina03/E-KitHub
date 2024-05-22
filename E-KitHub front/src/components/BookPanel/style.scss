@@ -1,0 +1,85 @@
+.addPage {
+  width: 100%;
+  max-width: 100%;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  gap: 30px;
+  .forms {
+    margin-top: 20px;
+    .form {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 10px;
+      .field {
+        outline: none;
+        width: 300px;
+        height: 30px;
+        padding: 10px;
+        font-size: 15px;
+        margin-right: 10px;
+      }
+      button {
+        font-size: 15px;
+        color: white;
+        border: none;
+        width: 300px;
+        height: 30px;
+        background-color: #00b4d8;
+        margin-right: 10px;     cursor: pointer;
+      }
+    }
+  }
+  .search {
+    input {
+      outline: none;
+      width: 300px;
+      height: 30px;
+      padding: 10px;
+      font-size: 15px;
+      margin-right: 10px;
+    }
+  }
+  .filter {
+    button {
+      font-size: 15px;
+      color: white;
+      border: none;
+      padding: 10px 17px;
+      background-color: #00b4d8;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+  }
+  .adminPanel {
+    .table {
+      width: 90%;
+      table {
+        border: 1px solid gray;
+        tr,
+        th,
+        td {
+          padding: 15px;
+          border: 1px solid gray;
+        }
+        img {
+          width: 150px;
+        }
+        button {
+          font-size: 15px;
+          color: white;
+          border: none;
+          padding: 10px 17px;
+          background-color: #00b4d8;
+          margin-right: 10px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

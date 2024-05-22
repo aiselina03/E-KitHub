@@ -1,0 +1,95 @@
+.menuUpdatePanel {
+  width: 90%;
+  margin: 40px auto;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .upload {
+      width: 250px;
+      height: 35px;
+      margin: 8px 0;
+      font-family: "Roboto", serif;
+      color: #00b4d8;
+      font-size: 17px;
+      border: 1px solid #00b4d8;
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      justify-content: center;
+      cursor: pointer;
+      .fa-upload {
+        margin-right: 10px;
+      }
+    }
+
+    input {
+      width: 250px;
+      height: 35px;
+      margin: 8px 0;
+      padding: 5px;
+      outline: none;
+      border: 1px solid #00b4d8;
+      background-color: transparent;
+      color: black;
+      font-size: 15px;
+    }
+    .categoryName {
+      width: 250px;
+      height: 35px;
+      font-size: 15px;
+      border: 1px solid #00b4d8;
+      background-color: transparent;
+      color: gray;
+      outline: none;
+      option {
+        color: #0b1315;
+        background-color: transparent;
+      }
+    }
+    button {
+      width: 250px;
+      height: 35px;
+      background-color: #00b4d8;
+      color: #0b1315;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 15px;
+      transition: all 600ms;
+      &:hover {
+        background-color: #dcd7e3;
+      }
+    }
+  }
+}
+.account {
+  width: 100%;
+  height: 7vh;
+  max-width: 100%;
+  background-color: #16272d;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  p {
+    font-family: "Cormorant", serif;
+    margin-left: 60px;
+    color: #cdc5b9;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    a {
+      font-size: 17px;
+      margin-right: 9px;
+      cursor: pointer;
+      color: #cdc5b9;
+    }
+  }
+}

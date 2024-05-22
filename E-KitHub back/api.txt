@@ -1,0 +1,79 @@
+{
+  "books": [
+    {
+      "title": "Əli və Nino",
+      "author": "Qurban Səid",
+      "published_year": 1937,
+      "genre": "Tarixi Roman",
+      "summary": "Əsər, bir müsəlman oğlan ilə xristian qızın sevgisindən bəhs edir. Bakıda başlayan bu sevgi, Qafqazın müxtəlif bölgələrinə yayılır.",
+      "pdf_url": "https://anl.az/el/s/sq_e&n.pdf",
+      "image": "https://static.insales-cdn.com/images/products/1/4774/171070118/large_860ce15baaef6db9b2566ad3498c6c7a.jpg",
+      "price": 10
+    },   {
+      "title": "Kitabi-Dədə Qorqud",
+      "author": "Anonim",
+      "published_year": 1300,
+      "genre": "Epik Dastan",
+      "summary": "Oğuz türklərinin qədim qəhrəmanlıq dastanları, əfsanələri və miflərini əks etdirən bir kitab.",
+      "pdf_url": "https://www.anl.az/el/i/265556.pdf",
+      "image":"https://altunkitab.az/storage/347/conversions/dede_qorqud2018-blade.jpg",
+        "price": 15
+    },
+    {
+      "title": "Yeddi Gözəl",
+      "author": "Nizami Gəncəvi",
+      "published_year": 1197,
+      "genre": "Epik Şeir",
+      "summary": "Nizami Gəncəvinin beşliyindən biridir və müxtəlif mədəniyyətlərdən gələn yeddi gözəlin hekayələrini təsvir edir.",
+      "pdf_url": "https://www.anl.az/el/n/ng_yeddi_gozel.pdf",
+      "image":"https://upload.wikimedia.org/wikipedia/az/c/c9/Yeddi_g%C3%B6z%C9%99l_cover.png",
+        "price": 13
+      
+    },
+ 
+    {
+      "title": "Əsli və Kərəm",
+      "author": "Anonim",
+      "published_year": 1600,
+      "genre": "Xalq Əfsanəsi",
+      "summary": "Əsli və Kərəm əfsanəsi, Azərbaycan və Anadolu türk folklorunun məşhur sevgi hekayələrindən biridir.",
+      "pdf_url": "https://urmu.eu/Azerbaycan_dastanlari_2.pdf",
+      "image":"https://upload.wikimedia.org/wikipedia/az/b/bf/%C6%8Fsli_v%C9%99_K%C9%99r%C9%99m.jpg",
+        "price": 9
+    },
+    {
+      "title": "Koroğlu",
+      "author": "Anonim",
+      "published_year": 1500,
+      "genre": "Epik Dastan",
+      "summary": "Azərbaycan xalqının məşhur qəhrəmanlıq dastanlarından biri olan Koroğlu dastanı.",
+      "pdf_url": "https://arti.edu.az/wp-content/uploads/2023/05/Koroglu-dastani-H%C9%99mz%C9%99nin-Qirati-qacirmasi-1.pdf",
+       "image":"https://strgimgr.umico.az/sized/840/183201-18d1b47f572e55197e5d5f5cc0c94dda.jpg",
+         "price": 11
+    },
+    {
+      "title": "Dəli Kür",
+      "author": "İsmayıl Şıxlı",
+      "published_year": 1960,
+      "genre": "Roman",
+      "summary": "Bu əsər, Qərbi Azərbaycanın kənd həyatını və insanların sadə, lakin mənalı həyatlarını təsvir edir.",
+      "pdf_url": "https://anl.az/el/alf25/shi_se2.pdf",
+       "image":"https://static.insales-cdn.com/images/products/1/1364/221611348/large_D%C9%99li-K%C3%BCr.jpg",
+         "price": 7
+    },
+  
+   
+ 
+     {
+      "title": "Leyli və Məcnun",
+      "author": "Füzuli",
+      "published_year": 1558,
+      "genre": "Lirik Şeir",
+      "summary": "Füzuli'nin ən məşhur əsərlərindən biri olan Leyli və Məcnun, sevginin gücünü və məhəbbətin sonsuzluğunu təsvir edir. Əsərdə, Leyli və Məcnunun dərin sevgisi və acılı hikayəsi anlatılır.",
+      "pdf_url": "https://anl.az/el/n/ng_l&m.pdf",
+       "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt-Cuzi9iRooMuQxAjwtxjyH-mG18kcDnMMk7Uk2cocw&s",
+         "price": 12
+    },
+
+  ]
+}

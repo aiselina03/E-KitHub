@@ -1,0 +1,154 @@
+.navbarContainer {
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid gainsboro;
+  .navbar {
+    width: 100%;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 14vh;
+
+    .logo {
+      width: 12% !important;
+    }
+    .menu {
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        li {
+          a {
+            font-size: 15px;
+            color: #00b4d8;
+          }
+        }
+      }
+    }
+    .icons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      .fa-light,
+      .fa-solid {
+        transition: all 700ms;
+        cursor: pointer;
+        font-size: 21px;
+        &:hover {
+          color: #00b4d8;
+          transform: rotateY(180deg);
+        }
+      }
+      a {
+        color: #000;
+      }
+
+      .user {
+        .logOut {
+          transition: all 600ms;
+          position: absolute;
+          height: 40px;
+          color: #00b4d8;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          opacity: 0;
+          z-index: 6;
+          font-weight: 400;
+          font-family: sans-serif;
+          cursor: pointer;
+          p {
+            margin-left: 5px;
+          }
+        }
+        &:hover {
+          .logOut {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+
+  .sticky {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid black;
+  }
+}
+
+.searchPanel {
+  width: 100%;
+  padding: 15px 50px;
+  font-family: "Roboto", sans-serif;
+  opacity: 0;
+  height: 0;
+  transition: all 0.8s linear;
+  position: fixed;
+  z-index: 8;
+  background-color: white;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  border-bottom: 1px solid gainsboro;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-direction: column;
+  .search {
+    height: 80px;
+    width: 100%;
+    border-bottom: 2px solid rgba(84, 84, 84, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    input {
+      width: 80%;
+      height: 100px;
+      font-size: 26px;
+      color: black;
+      outline: none;
+      border: none;
+      background-color: transparent;
+      font-family: "Cormorant", sans-serif;
+    }
+
+    .fa-light {
+      cursor: pointer;
+      color: #00b4d8;
+      transition: all 700ms;
+      font-size: 19px;
+      &:hover {
+        color: black;
+      }
+    }
+    a {
+      color: #00b4d8;
+      transition: all 700ms;
+      font-size: 19px;
+      &:hover {
+        color: black;
+      }
+    }
+  }
+  .fa-xmark {
+    cursor: pointer;
+    color: #00b4d8;
+    transition: all 700ms;
+    font-size: 23px;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+.searchToggle {
+  opacity: 1;
+  min-height: 260px;
+}

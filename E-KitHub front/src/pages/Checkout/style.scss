@@ -1,0 +1,523 @@
+.checkoutPage {
+  width: 100%;
+  max-width: 100%;
+  font-family: sans-serif;
+  .checkout {
+    width: 90%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: start;
+    justify-content: space-between;
+    .billing {
+      h2 {
+        color: black;
+
+        margin-bottom: 20px;
+      }
+      .formik {
+        .form {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+
+          .row1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            .input {
+              .field {
+                width: 350px;
+              }
+            }
+          }
+          .input {
+            display: flex;
+            align-items: start;
+            justify-content: center;
+            flex-direction: column;
+            margin: 10px 0;
+            span {
+              color: red;
+            }
+            .label {
+              color: black;
+              span {
+                color: red;
+              }
+            }
+            .field {
+              background-color: transparent;
+              outline: none;
+              border: 1px solid #00b4d8;
+              color: black;
+              width: 720px;
+              height: 50px;
+              padding: 10px;
+              margin: 10px 0;
+              font-size: 14px;
+            }
+          }
+          .textareas {
+            display: flex;
+            align-items: start;
+            justify-content: center;
+            flex-direction: column;
+            margin: 10px 0;
+            .label {
+              color: black;
+            }
+            .textarea {
+              padding: 10px;
+              background-color: transparent;
+              outline: none;
+              border: 1px solid #00b4d8;
+              color: black;
+              width: 720px;
+              height: 100px;
+              margin: 10px 0;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+    .order {
+      h2 {
+        color: black;
+        margin-bottom: 55px;
+      }
+      .productOrder {
+        .subTotal {
+          table {
+            padding: 20px;
+            border: 1px solid #00b4d8;
+            tr {
+              display: flex;
+              width: 500px;
+              align-items: center;
+              justify-content: space-between;
+              th {
+                font-weight: 700;
+                padding: 10px 0;
+                line-height: 1.5em;
+                color: #00b4d8;
+              }
+              td {
+                text-align: left;
+                color: black;
+                margin: 6px 0;
+                display: flex;
+                h4 {
+                  margin-right: 6px;
+                  font-weight: 400;
+                  text-transform: lowercase !important;
+                }
+              }
+            }
+          }
+        }
+      }
+      button {
+        margin-top: 30px;
+        font-size: 15px;
+        border: none;
+        background-color: #00b4d8;
+        width: 545px;
+        height: 50px;
+        cursor: pointer;
+        color: #0b1315;
+        font-weight: bold;
+        transition: all 600ms;
+        &:hover {
+          background-color: #dcd7e3;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 480px) {
+  .checkoutPage {
+    .checkout {
+      display: grid;
+      grid-template-columns: auto;
+      align-items: center;
+      justify-content: center;
+      .billing {
+        width: 280px;
+        .formik {
+          .form {
+            .row1 {
+              display: flex;
+              flex-direction: column;
+              gap: 0px;
+              .input {
+                .field {
+                  width: 280px;
+                }
+              }
+            }
+            .input {
+              .field {
+                width: 280px;
+              }
+            }
+            .textareas {
+              .textarea {
+                width: 280px;
+              }
+            }
+          }
+        }
+      }
+      .order {
+        width: 280px;
+        h2 {
+          margin-bottom: 25px;
+        }
+        .productOrder {
+          .subTotal {
+            table {
+              width: 280px;
+              tr {
+                width: 240px;
+              }
+            }
+          }
+        }
+        button {
+          width: 280px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .checkoutPage {
+    .checkout {
+      display: grid;
+      grid-template-columns: auto;
+      align-items: center;
+      justify-content: center;
+      .billing {
+        width: 450px;
+        .formik {
+          .form {
+            .row1 {
+              display: flex;
+              flex-direction: column;
+              gap: 0px;
+              .input {
+                .field {
+                  width: 450px;
+                }
+              }
+            }
+            .input {
+              .field {
+                width: 450px;
+              }
+            }
+            .textareas {
+              .textarea {
+                width: 450px;
+              }
+            }
+          }
+        }
+      }
+      .order {
+        width: 450px;
+        h2 {
+          margin-bottom: 25px;
+        }
+        .productOrder {
+          .subTotal {
+            table {
+              width: 450px;
+              tr {
+                width: 410px;
+              }
+            }
+          }
+        }
+        button {
+          width: 450px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .checkoutPage {
+    .checkout {
+      display: grid;
+      grid-template-columns: auto;
+      align-items: center;
+      justify-content: center;
+      .billing {
+        width: 700px;
+        .formik {
+          .form {
+            .row1 {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 20px;
+              .input {
+                .field {
+                  width: 340px;
+                }
+              }
+            }
+            .input {
+              .field {
+                width: 700px;
+              }
+            }
+            .textareas {
+              .textarea {
+                width: 700px;
+              }
+            }
+          }
+        }
+      }
+      .order {
+        width: 700px;
+        h2 {
+          margin-bottom: 25px;
+        }
+        .productOrder {
+          .subTotal {
+            table {
+              width: 700px;
+              tr {
+                width: 650px;
+              }
+            }
+          }
+        }
+        button {
+          width: 700px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1100px) {
+  .checkoutPage {
+    .checkout {
+      .billing {
+        width: 500px;
+        .formik {
+          .form {
+            .row1 {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 20px;
+              .input {
+                .field {
+                  width: 240px;
+                }
+              }
+            }
+            .input {
+              .field {
+                width: 500px;
+              }
+            }
+            .textareas {
+              .textarea {
+                width: 500px;
+              }
+            }
+          }
+        }
+      }
+      .order {
+        width: 350px;
+        h2 {
+          margin-bottom: 25px;
+        }
+        .productOrder {
+          .subTotal {
+            table {
+              width: 350px;
+              tr {
+                width: 300px;
+              }
+            }
+          }
+        }
+        button {
+          width: 350px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1101px) and (max-width: 1200px) {
+  .checkoutPage {
+    .checkout {
+      .billing {
+        width: 550px;
+        .formik {
+          .form {
+            .row1 {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 20px;
+              .input {
+                .field {
+                  width: 265px;
+                }
+              }
+            }
+            .input {
+              .field {
+                width: 550px;
+              }
+            }
+            .textareas {
+              .textarea {
+                width: 550px;
+              }
+            }
+          }
+        }
+      }
+      .order {
+        width: 400px;
+        h2 {
+          margin-bottom: 25px;
+        }
+        .productOrder {
+          .subTotal {
+            table {
+              width: 400px;
+              tr {
+                width: 350px;
+              }
+            }
+          }
+        }
+        button {
+          width: 400px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+  .checkoutPage {
+    .checkout {
+      .billing {
+        width: 600px;
+        .formik {
+          .form {
+            .row1 {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 20px;
+              .input {
+                .field {
+                  width: 290px;
+                }
+              }
+            }
+            .input {
+              .field {
+                width: 600px;
+              }
+            }
+            .textareas {
+              .textarea {
+                width: 600px;
+              }
+            }
+          }
+        }
+      }
+      .order {
+        width: 450px;
+        h2 {
+          margin-bottom: 25px;
+        }
+        .productOrder {
+          .subTotal {
+            table {
+              width: 450px;
+              tr {
+                width: 400px;
+              }
+            }
+          }
+        }
+        button {
+          width: 450px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1301px) and (max-width: 1400px) {
+  .checkoutPage {
+    .checkout {
+      .billing {
+        width: 620px;
+        .formik {
+          .form {
+            .row1 {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 20px;
+              .input {
+                .field {
+                  width: 300px;
+                }
+              }
+            }
+            .input {
+              .field {
+                width: 620px;
+              }
+            }
+            .textareas {
+              .textarea {
+                width: 620px;
+              }
+            }
+          }
+        }
+      }
+      .order {
+        width: 500px;
+        h2 {
+          margin-bottom: 25px;
+        }
+        .productOrder {
+          .subTotal {
+            table {
+              width: 500px;
+              tr {
+                width: 450px;
+              }
+            }
+          }
+        }
+        button {
+          width: 500px;
+        }
+      }
+    }
+  }
+}

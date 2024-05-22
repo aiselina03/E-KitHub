@@ -1,0 +1,117 @@
+.userPanel {
+  width: 80%;
+  margin: 30px auto;
+font-family: sans-serif;
+  .table {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    table {
+
+      width: 100%;
+      border: 1px solid gray;
+      text-align: center;
+      tr {
+        th {
+          padding: 10px;
+
+          border: 1px solid gray;
+          color: black;
+          font-size: 17px;
+        }
+      }
+
+      td {
+        font-size: 15px;
+        padding: 10px;
+        color: black;
+        border: 1px solid gray;
+        text-align: center;
+
+        img {
+          width: 850px;
+        }
+        button {
+          font-size: 15px;
+          border: none;
+          background-color:#00b4d8;
+          width: 80px;
+          height: 30px;
+          cursor: pointer;
+          color: #0b1315;
+          font-weight: bold;
+          transition: all 600ms;
+          &:hover {
+            background-color: #dcd7e3;
+          }
+        }
+      }
+    }
+  }
+}
+.adminPanels {
+  font-family: sans-serif;
+  width: 90%;
+  min-height: 5vh;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .panels {
+    width: 400px;
+    min-height: 5vh;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: center;
+    h3 {
+      a {
+        font-size: 23px;
+        color: black;
+
+      }
+      .active {
+        color:#00b4d8;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+  .userPanel {
+    .table {
+      table {
+        tr {
+          th {
+            display: none;
+          }
+        }
+        td {
+          display: list-item;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 410px) {
+  .adminPanels {
+    .panels {
+      width: 300px;
+      min-height: auto;
+      display: flex;
+      align-items: center;
+      gap: 50px;
+      justify-content: center;
+      padding: 6px;
+      h3 {
+        a {
+          font-size: 23px;
+        }
+      }
+    }
+  }
+}

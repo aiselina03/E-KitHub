@@ -1,0 +1,77 @@
+.errorPage {
+  width: 100%;
+  max-width: 100%;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  h1 {
+    font-size: 130px;
+    color: #00b4d8;
+
+  }
+  h2 {
+    font-size: 26px;
+
+    color: black;
+    font-weight: 400;
+    margin: 20px 0;
+  }
+  p {
+    text-align: center;
+    line-height: 25px;
+    color: black;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    width: 600px;
+  }
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid #00b4d8;
+    background-color: #00b4d8;
+    font-family: "Roboto", serif;
+    width: 180px;
+    height: 50px;
+    font-size: 15px;
+    margin: 25px 0;
+    p {
+      color: white;
+    }
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 480px) {
+  .errorPage {
+    min-height: 75vh;
+    h1 {
+      font-size: 100px;
+    }
+    h2 {
+      font-size: 23px;
+    }
+    p {
+      width: 280px;
+      font-size: 14px;
+    }
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .errorPage {
+    min-height: 75vh;
+    h1 {
+      font-size: 110px;
+    }
+    h2 {
+      font-size: 24px;
+    }
+    p {
+      width: 400px;
+      font-size: 15px;
+    }
+  }
+}
