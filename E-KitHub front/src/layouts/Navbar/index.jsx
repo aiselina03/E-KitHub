@@ -4,12 +4,14 @@ import { Link, NavLink, useNavigate } from "react-router-dom";
 import { SearchContext } from "../../context/searchContext";
 import SearchResult from "../../components/SearchResult";
 import { UserContext } from "../../context/userContext";
+import { BasketContext } from "../../context/basketContext";
 
 function Navbar() {
   const [showSearchResult, setShowSearchResult] = useState(false);
   const [openSearch, setOpenSearch] = useState(false);
   const { searchQuery, setSearchQuery } = useContext(SearchContext);
   const { logOut, decode } = useContext(UserContext);
+  const { basket } = useContext(BasketContext);
   const navigate = useNavigate();
 
   const handleSearch = () => {
@@ -82,6 +84,8 @@ function Navbar() {
             )}
             <Link to={"/basket"}>
               <i className="fa-light fa-cart-shopping"></i>
+              {decode ? <sup>{basket.length ? basket.length : ""}</sup> : ""}
+
             </Link>
 
             <Link to={"/wishlist"}>

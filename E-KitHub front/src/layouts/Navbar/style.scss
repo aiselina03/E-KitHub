@@ -45,7 +45,11 @@
       a {
         color: #000;
       }
-
+      sup {
+        margin-left: 2px;
+    
+        font-size: 13px;
+      }
       .user {
         .logOut {
           transition: all 600ms;
